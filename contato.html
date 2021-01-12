@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <ul>
+    <ul id="menu">
         <li>
             <a href="index.html">Home</a>
         </li>
@@ -14,30 +15,65 @@
             <a href="contato.html">Contato</a>
         </li>
     </ul>
-    <h1>Entre em contato</h1>
+    <h1 class="center">Entre em contato comigo</h1>
 
-    <form>
-        <label for="nome">Nome:</label> <br>
-        <input type="text" id="nome">
-        <br>
-        <br>
-        <label for="email">Email:</label> <br>
-        <input type="text" id="email">
-        <br>
-        <br>
-        <label for="assunto">Assunto:</label> <br>
-        <textarea name="assunto" id="assunto" cols="60" rows="5"></textarea>
-        <br>
-        <br>
-        <button>Enviar</button>
-    </form>
+    <div class="container">
+        <div>
+            
+            <form>
+                <label for="nome">Nome:</label> <br>
+                <input type="text" id="nome">
+                <br>
+                <br>
+                <label for="email">Email:</label> <br>
+                <input type="text" id="email">
+                <br>
+                <br>
+                <label for="assunto">Assunto:</label> <br>
+                <textarea name="assunto" id="assunto" cols="60" rows="5"></textarea>
+                <br>
+                <br>
+                <button>Enviar</button>
+            </form>
+        </div>
 
-    <h2>Endereço:</h2>
-    <p>Av. 23 de Maio, 500 </p>
-    <p>Vila Mariana</p>
-    <p>São Paulo/SP</p>
+        <div class="ml-50 mb-50">
 
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.6645878809272!2d-46.65138308502174!3d-23.580486984673385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5992ed3edcdf%3A0xfb6339c3502d9d14!2sAv.%2023%20de%20Maio%2C%20500%20-%20Vila%20Mariana%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1610391064102!5m2!1spt-BR!2sbr" 
-    width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            <p>Av. 23 de Maio, 500 </p>
+            <p>Vila Mariana</p>
+            <p>São Paulo/SP</p>
+        
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.6645878809272!2d-46.65138308502174!3d-23.580486984673385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5992ed3edcdf%3A0xfb6339c3502d9d14!2sAv.%2023%20de%20Maio%2C%20500%20-%20Vila%20Mariana%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1610391064102!5m2!1spt-BR!2sbr" 
+            width="450" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+
+    </div>
+    
+
+    <hr>
+    <footer>
+        
+        <p class="center">
+            Todos os direitos reservados: Mariana &copy 
+        </p>
+    
+        <div class="container" >
+            <a href="https://www.facebook.com/" target="blank">
+                <img class="tm-social p-30"  src="assets\img\facebook.png" alt="Facebook Icon">
+            </a>
+            
+            <a href="https://www.instagram.com/?hl=pt-br" target="blank">
+                <img class="tm-social p-30" src="assets\img\instagram.png" alt="Istagram Icon">
+            </a>
+            
+            <a href="https://www.linkedin.com/home" target="blank">
+                <img class="tm-social p-30" src="assets\img\linkedin.png" alt="Linkedin Icon">
+            </a>
+            
+        </div>
+       
+    </footer>
+    
+
 </body>
 </html>
